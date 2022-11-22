@@ -1,7 +1,12 @@
+import './reset.css'
+import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <h1>hello word</h1>
+    <>
+    <Home />
+    </>
   );
 }
 

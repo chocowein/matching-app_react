@@ -1,0 +1,30 @@
+/* ヘッダーCSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    background-color: rgba(255, 114, 161, 0.446);
+    font-family: serif;
+}
+.header_title{
+    margin-bottom: 0px;
+    padding-left: 40px;
+    margin-top: 20px;
+    width: 40%;
+    height: 70px;
+    font-size: 50px;
+}
+.header_mune{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 40%;
+    height: 70px;   
+}
+.header_mune li{
+    margin-top: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    display: inline-block;
+    list-style:none;
+}
+/* ヘッダーCSS終了 */
