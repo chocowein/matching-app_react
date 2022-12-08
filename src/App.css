@@ -8,17 +8,18 @@
 }
 .header_title{
     margin-bottom: 0px;
-    padding-left: 40px;
-    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
     width: 40%;
-    height: 70px;
+    height: 80px;
     font-size: 50px;
 }
 .header_mune{
     margin-bottom: 0px;
-    margin-top: 20px;
+    padding-top: 20px;
     width: 40%;
-    height: 70px;   
+    height: 80px;
+    text-align: center;
 }
 .header_mune li{
     margin-top: 20px;
@@ -28,3 +29,80 @@
     list-style:none;
 }
 /* ヘッダーCSS終了 */
+
+/* ツイート部分のCSS */
+.Tweet{
+    font-family: serif;
+    padding-top: 30px;
+    padding-left: 10%;
+    width: 60%;
+}
+.tweet_title{
+    font-size: 25px;
+}
+.tweet_border {
+    border: solid 1px hsl(0, 0%, 32%);
+    border-radius: 8px;
+    margin-top: 15px;
+    height: 650px;
+}
+.user_wirte{
+    border-bottom: solid 1px;
+    text-align: right;
+}
+.user_wirte button{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.tweet_input{
+    width: 100%;
+    height: 80px;
+    resize:none;
+    text-align: left;
+}
+/* ツイート部分のCSS終了 */
+/* /* DM部分のCSS */
+
+/* DM部分のCSS終了 */ 
+.DM{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-family: serif;
+    width: 35%;
+}
+.DM_title{
+    font-size: 25px;
+}
+.DM_border {
+    display: flex;
+    border: solid 1px hsl(0, 0%, 32%);
+    border-radius: 8px;
+    margin-top: 15px;
+    height: 650px;
+}
+.DM_user{
+    width: 13%;
+    height: 100%;
+}
+.DM_leftborder{
+    border-left: solid 1px hsl(0, 0%, 32%);
+}
+.DM_messages{
+    height: 85%;
+    width: 100%;
+    text-align:right
+}
+.DM_message{
+    height: 100%;
+}
+.DM_send{
+    width: 100%;
+    height: 13%;
+    resize:none;
+    text-align: left;
+    border-top: solid 1px hsl(0, 0%, 32%);
+}
+/* DMとツイート部分フレックス */
+.flex_main{
+display: flex;
+}
